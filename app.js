@@ -1,11 +1,11 @@
 var kar = {
-	x: 10, 
-	y: 10,
+	x: 200, 
+	y: 20,
 	dx: 0, 
 	dy: 0, 
 
 	draw: function(ctx) {
-		ctx.fillRect(this.x, this.y,100,40);
+		ctx.fillRect(this.x, this.y,40,15);
 	}
 }
 
